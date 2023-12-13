@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/lalyos/fluksz
+  url: https://github.com/lalyos/fluksz
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
