@@ -25,6 +25,7 @@ spec:
   install:
     createNamespace: true
   interval: 10m0s
+  releaseName: cert-manager
   targetNamespace: cert-manager
   values:
     installCRDs: true
